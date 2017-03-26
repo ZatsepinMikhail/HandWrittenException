@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RealException.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RealExceptions.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EB5264FD-05C6-4060-9202-840DEAD86C38}</ProjectGuid>
     <RootNamespace>HandWrittenException</RootNamespace>
@@ -109,13 +116,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\HandWrittenExceptions\HandWrittenExceptions\Main.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\HandWrittenExceptions\HandWrittenExceptions\RealExceptions.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\HandWrittenExceptions\HandWrittenExceptions\RealException.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
